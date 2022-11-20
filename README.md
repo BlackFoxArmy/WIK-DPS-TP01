@@ -28,7 +28,7 @@ localhost:8080
 localhost:8080/ping
 ```
 
-> Une fois sur cette page vous aurez accès au HEADER qui vous montrera la réponse et tout les informations nécessaire, si vous allez voir dans la page réseau, vous pourrez voir le content-lenght qui sera à **795** et en status code **200**.
+>Apres cette rendu sur cette page, vous aurez accès au HEADER, celui-ci vous montrera toutes les informations nécessaire, si vous aller dans F12 et dans la categorie reseau, vous pourrez voir le content-lenght qui sera à 795 et en status code 200.
 
 --------------------------------------
 
@@ -37,6 +37,6 @@ localhost:8080/ping
 localhost:8080/test
 ```
     
-> Une fois sur cette page vous aurez une erreur 404 si vous allez regarder dans le réseau vous pourrez constater que le status code est en 404 Not Found et que le Content-Length est à 0.
+> Sur cette page vous aurez une erreur 404 si vous allez regarder dans le réseau vous pourrez constater que le status code est en 404 Not Found et que le Content-Length est à 0.
 
 
