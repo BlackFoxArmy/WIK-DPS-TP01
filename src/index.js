@@ -11,7 +11,7 @@ var PING_LISTEN_PORT = 8080;
 // });
 ///////////////HOME PAGE////////////////////////
 app.get('/', function (req, res) {
-    res.send('Oui oui baguette !');
+    res.send('Ca marche !');
 });
 ////////////////////////////////////////////////
 ///////////////////HEADER PING///////////////////
@@ -25,5 +25,5 @@ app.all('*', function (req, res) {
 });
 //////////////////////////////////////////////////
 app.listen(8080, function () {
-    console.log("The application is listening on port 8080!");
+    console.log("L'application ecoute sur le port 8080!");
 });
